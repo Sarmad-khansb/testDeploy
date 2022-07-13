@@ -1,8 +1,8 @@
 # Generates an archive of the source code compressed as a .zip file.
 data "archive_file" "source" {
     type        = "zip"
-    source_dir  = "main.py"
-    output_path = "/tmp/function.zip"
+    source_dir  = "./src/"
+    output_path = "./function.zip"
 }
 
 
